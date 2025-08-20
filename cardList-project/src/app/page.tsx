@@ -33,54 +33,54 @@ export default function Home() {
 
         <section className="mt-4">
           <ul className="flex flex-col gap-3">
-            <li className="flex items-center bg-indigo-100 p-2 rounded-lg">
-              {/* Caja tarea */}
-              <div className="flex items-center gap-2 flex-1">
-                <span className="w-5 h-5 flex items-center justify-center bg-green-500 rounded-full text-white">✓</span>
+            <li className="grid grid-cols-[1fr_auto] items-center bg-indigo-100 p-2 rounded-lg">
+              
+              <div className="flex items-center gap-2">
+                <span className="w-5 h-5 flex items-center justify-center bg-green-500 rounded-full text-white text-xs">✓</span>
                 <span className="line-through text-gray-600 text-sm font-medium">take out the trash</span>
               </div>
 
-              <time className="text-sm font-semibold text-gray-600">9:00 AM</time>
+              <time className="text-sm font-semibold text-gray-600 pl-4">9:00 AM</time>
             </li>
 
-            <li className="flex items-center bg-indigo-100 p-2 rounded-lg">
-              <div className="flex items-center gap-2 flex-1">
-                <span className="w-5 h-5 flex items-center justify-center bg-green-500 rounded-full text-white">✓</span>
+            <li className="grid grid-cols-[1fr_auto] items-center bg-indigo-100 p-2 rounded-lg">
+              <div className="flex items-center gap-2">
+                <span className="w-5 h-5 flex items-center justify-center bg-green-500 rounded-full text-white text-xs">✓</span>
                 <span className="line-through text-gray-600 text-sm font-medium">do homework</span>
               </div>
-              <time className="text-sm font-semibold text-gray-600">12:00 PM</time>
+              <time className="text-sm font-semibold text-gray-600 pl-4">12:00 PM</time>
             </li>
 
-            <li className="flex items-center bg-indigo-100 p-2 rounded-lg">
-              <div className="flex items-center gap-2 flex-1">
+            <li className="grid grid-cols-[1fr_auto] items-center bg-indigo-100 p-2 rounded-lg">
+              <div className="flex items-center gap-2">
                 <span className="w-5 h-5 flex items-center justify-center border-2 border-gray-300 rounded-full"></span>
                 <span className="text-gray-600 text-sm font-medium">go to grocery store</span>
               </div>
-              <time className="text-sm font-semibold text-gray-600">1:00 PM</time>
+              <time className="text-sm font-semibold text-gray-600 pl-4">1:00 PM</time>
             </li>
 
-            <li className="flex items-center bg-indigo-100 p-2 rounded-lg">
-              <div className="flex items-center gap-2 flex-1">
+            <li className="grid grid-cols-[1fr_auto] items-center bg-indigo-100 p-2 rounded-lg">
+              <div className="flex items-center gap-2">
                 <span className="w-5 h-5 flex items-center justify-center border-2 border-gray-300 rounded-full"></span>
                 <span className="text-gray-600 text-sm font-medium">run 5 kilometers</span>
               </div>
-              <time className="text-sm font-semibold text-gray-600">4:20 PM</time>
+              <time className="text-sm font-semibold text-gray-600 pl-4">4:20 PM</time>
             </li>
 
-            <li className="flex items-center bg-indigo-100 p-2 rounded-lg">
-              <div className="flex items-center gap-2 flex-1">
+            <li className="grid grid-cols-[1fr_auto] items-center bg-indigo-100 p-2 rounded-lg">
+              <div className="flex items-center gap-2">
                 <span className="w-5 h-5 flex items-center justify-center border-2 border-gray-300 rounded-full"></span>
                 <span className="text-gray-600 text-sm font-medium">load the dishwasher</span>
               </div>
-              <time className="text-sm font-semibold text-gray-600">9:00 PM</time>
+              <time className="text-sm font-semibold text-gray-600 pl-4">9:00 PM</time>
             </li>
 
-            <li className="flex items-center bg-indigo-100 p-2 rounded-lg">
-              <div className="flex items-center gap-2 flex-1">
+            <li className="grid grid-cols-[1fr_auto] items-center bg-indigo-100 p-2 rounded-lg">
+              <div className="flex items-center gap-2">
                 <span className="w-5 h-5 flex items-center justify-center border-2 border-gray-300 rounded-full"></span>
                 <span className="text-gray-600 text-sm font-medium">Take out the trash</span>
               </div>
-              <time className="text-sm font-semibold text-gray-600">9:00 AM</time>
+              <time className="text-sm font-semibold text-gray-600 pl-4">9:00 AM</time>
             </li>
           </ul>
         </section>
