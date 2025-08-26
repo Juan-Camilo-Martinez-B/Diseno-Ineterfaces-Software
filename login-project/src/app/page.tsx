@@ -1,5 +1,39 @@
 import Image from "next/image";
 
+
+{/* Icono superior izquierdo*/}
+function HexIcon({ className = "w-10 h-10" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 100 100"
+      className={className}
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      {/* Hexágono incompleto */}
+      <path
+        d="M50 5 L85 25 L85 60 L50 85"
+        stroke="black"
+        strokeWidth="6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        
+        />
+      <path
+        d="M15 60 L15 25 L50 5"
+        stroke="black"
+        strokeWidth="6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+
+      {/* Romboide azul */}
+      <polygon points="20,62 55,62 42,88 8,88" className="fill-sky-500" />
+    </svg>
+  );
+}
+
+
 export default function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white">
@@ -10,6 +44,9 @@ export default function Login() {
         <div className="flex items-center justify-center bg-white relative shadow-2xl">
           {/* Recuadro interno */}
           <div className="relative w-80 h-80 border-2 border-gray-100 rounded-xl shadow-lg flex items-center justify-center bg-amber-50">
+            <div className="absolute top-4 left-4">
+              <HexIcon/>
+            </div>
             {/* Icono */}
             <div className="absolute -right-10 md:-right-10 z-20">
               <Image 
@@ -24,7 +61,7 @@ export default function Login() {
         </div>
 
         {/* Columna derecha*/}
-        <div className="flex flex-col items-center justify-center px-10 py-12 bg-white relative z-10 w-full">
+        <div className="flex flex-col items-start justify-center px-10 py-12 bg-white relative z-10 w-full">
           <div className="absolute top-4 right-6 text-sm text-gray-600">
             Don’t have an account?{" "}
             <span className="font-semibold text-sky-500 hover:underline cursor-pointer">
